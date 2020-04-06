@@ -16,6 +16,8 @@ def find_min_in_nested_arrays(src)
     end
     returnArray.push(min_temp)
     i += 1
+    
   end
   return returnArray
+  
 end
