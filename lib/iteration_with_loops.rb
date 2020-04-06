@@ -5,12 +5,12 @@ def find_min_in_nested_arrays(src)
   
   i = 0
   
-  while i < array.length do 
+  while i < src.length do 
     j = 1
-    min_temp = array[i][0]
-    while j < array[i].length do 
-      if (array[i][j] < min_temp)
-        min_temp = array[i][j]
+    min_temp = src[i][0]
+    while j < src[i].length do 
+      if (src[i][j] < min_temp)
+        min_temp = src[i][j]
       end
       j += 1
     end
